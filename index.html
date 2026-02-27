@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="description" content="Divyah Infotech - Professional Computer and Hardware Services, Laptop Repair, PC Installation, Annual Maintenance Contracts (AMC), Software Setup and Troubleshooting">
+    <meta name="keywords" content="computer repair, laptop repair, AMC, annual maintenance contract, PC installation, software troubleshooting, hardware services">
+    <meta name="author" content="Divyah Infotech">
+    <title>Divyah Infotech - Professional Computer & Hardware Services</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNavbar">
+        <div class="container">            <a class="navbar-brand" href="#home">
+                <img src="logo.png" alt="Divyah Infotech" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>                    <li class="nav-item">
+                        <a class="nav-link btn btn-book-service text-white ms-2 px-3" href="#contact">Book Service</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Carousel -->
+    <section id="home" class="hero-section">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">            
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
+            </div>
+            <div class="carousel-inner">
+                <!-- Slide 1 - Computer Repair -->
+                <div class="carousel-item active">
+                    <div class="hero-slide hero-slide-1">
+                        <div class="hero-overlay"></div>
+                        <div class="container">
+                            <div class="row align-items-center min-vh-100">
+                                <div class="col-lg-6">
+                                    <div class="hero-content" data-aos="fade-right">
+                                        <h1 class="display-4 fw-bold text-white mb-4">
+                                            Expert Computer & Laptop Repair
+                                        </h1>
+                                        <p class="lead text-white mb-4">
+                                            Professional hardware diagnosis and repair services with quick turnaround times. 
+                                            We fix laptops, desktops, and all computer-related issues.
+                                        </p>
+                                        <div class="hero-buttons">                                            
+                                            <a href="#contact" class="btn btn-primary btn-lg">
+                                                <i class="fas fa-tools me-2"></i>Book Repair
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="hero-image" data-aos="fade-left">
+                                        <i class="fas fa-laptop-medical hero-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 - AMC Services -->
+                <div class="carousel-item">
+                    <div class="hero-slide hero-slide-2">
+                        <div class="hero-overlay"></div>
+                        <div class="container">
+                            <div class="row align-items-center min-vh-100">
+                                <div class="col-lg-6">
+                                    <div class="hero-content" data-aos="fade-right">
+                                        <h1 class="display-4 fw-bold text-white mb-4">
+                                            Annual Maintenance Contracts
+                                        </h1>
+                                        <p class="lead text-white mb-4">
+                                            Comprehensive AMC packages to keep your systems running smoothly. 
+                                            Regular maintenance, priority support, and cost-effective solutions.
+                                        </p>                                        <div class="hero-buttons">
+                                            <a href="#contact" class="btn btn-success btn-lg me-3">
+                                                <i class="fas fa-handshake me-2"></i>Get AMC Quote
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="hero-image" data-aos="fade-left">
+                                        <i class="fas fa-shield-alt hero-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                <!-- Slide 3 - PC Installation -->
+                <div class="carousel-item">
+                    <div class="hero-slide hero-slide-3">
+                        <div class="hero-overlay"></div>
+                        <div class="container">
+                            <div class="row align-items-center min-vh-100">
+                                <div class="col-lg-6">
+                                    <div class="hero-content" data-aos="fade-right">
+                                        <h1 class="display-4 fw-bold text-white mb-4">
+                                            Complete PC Setup & Installation
+                                        </h1>
+                                        <p class="lead text-white mb-4">
+                                            From hardware assembly to software installation, we provide end-to-end 
+                                            PC setup services for homes and businesses.
+                                        </p>
+                                        <div class="hero-buttons">                                            
+                                            <a href="#contact" class="btn btn-info btn-lg">
+                                                <i class="fas fa-desktop me-2"></i>Schedule Setup
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="hero-image" data-aos="fade-left">
+                                        <i class="fas fa-cogs hero-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 - Computer Peripherals -->
+                <div class="carousel-item">
+                    <div class="hero-slide hero-slide-4">
+                        <div class="hero-overlay"></div>
+                        <div class="container">
+                            <div class="row align-items-center min-vh-100">
+                                <div class="col-lg-6">
+                                    <div class="hero-content" data-aos="fade-right">
+                                        <h1 class="display-4 fw-bold text-white mb-4">
+                                            Computer Peripherals & Accessories
+                                        </h1>
+                                        <p class="lead text-white mb-4">
+                                            Professional installation and setup of keyboards, mice, printers, monitors, 
+                                            and all computer peripherals for optimal performance.
+                                        </p>
+                                        <div class="hero-buttons">                                            
+                                            <a href="#contact" class="btn btn-warning btn-lg">
+                                                <i class="fas fa-keyboard me-2"></i>Setup Peripherals
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="hero-image" data-aos="fade-left">
+                                        <i class="fas fa-keyboard hero-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section py-5">
+        <div class="container">            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h5>Quick Turnaround</h5>
+                        <p>Fast and efficient service delivery</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h5>Expert Technicians</h5>
+                        <p>Certified and experienced professionals</p>
+                    </div>
+                </div><div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <h5>Affordable Pricing</h5>
+                        <p>Competitive rates for all services</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" data-aos="fade-up">Our Services</h2>
+                    <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                        Comprehensive computer and hardware solutions for all your tech needs
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Service 1 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-medical"></i>
+                        </div>
+                        <h4>Computer & Laptop Repair</h4>
+                        <p>Professional diagnosis and repair of hardware issues, motherboard problems, screen replacements, and component upgrades.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Hardware Diagnosis</li>
+                            <li><i class="fas fa-check"></i> Component Replacement</li>
+                            <li><i class="fas fa-check"></i> Screen Repair</li>
+                            <li><i class="fas fa-check"></i> Data Recovery</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Annual Maintenance Contracts</h4>
+                        <p>Comprehensive AMC packages ensuring your systems run smoothly with regular maintenance and priority support.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Regular System Checkups</li>
+                            <li><i class="fas fa-check"></i> Priority Support</li>
+                            <li><i class="fas fa-check"></i> Preventive Maintenance</li>
+                            <li><i class="fas fa-check"></i> Cost-Effective Plans</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary">View Plans</a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h4>Full PC Installation</h4>
+                        <p>Complete computer setup from hardware assembly to software installation, perfectly configured for your needs.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Hardware Assembly</li>
+                            <li><i class="fas fa-check"></i> OS Installation</li>
+                            <li><i class="fas fa-check"></i> Driver Setup</li>
+                            <li><i class="fas fa-check"></i> System Optimization</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary">Schedule Setup</a>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <h4>Software Setup & Troubleshooting</h4>
+                        <p>Installation, configuration, and troubleshooting of operating systems, applications, and software solutions.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> OS Installation</li>
+                            <li><i class="fas fa-check"></i> Software Configuration</li>
+                            <li><i class="fas fa-check"></i> Error Resolution</li>
+                            <li><i class="fas fa-check"></i> Performance Optimization</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary">Book Service</a>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h4>Network Setup & Configuration</h4>
+                        <p>Professional network installation, WiFi setup, and connectivity solutions for homes and offices.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> WiFi Setup</li>
+                            <li><i class="fas fa-check"></i> Network Configuration</li>
+                            <li><i class="fas fa-check"></i> Security Setup</li>
+                            <li><i class="fas fa-check"></i> Troubleshooting</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary">Get Started</a>
+                    </div>
+                </div>                <!-- Service 6 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h4>System Maintenance</h4>
+                        <p>Regular system cleaning, performance optimization, and preventive maintenance to keep your computers running efficiently.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> System Cleaning</li>
+                            <li><i class="fas fa-check"></i> Performance Tuning</li>
+                            <li><i class="fas fa-check"></i> Virus Removal</li>
+                            <li><i class="fas fa-check"></i> Regular Updates</li>                        
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary">Get Started</a>
+                    </div>
+                </div>                <!-- Service 7 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="700">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-keyboard"></i>
+                        </div>
+                        <h4>Computer Peripherals Setup</h4>
+                        <p>Professional installation and configuration of keyboards, mice, printers, monitors, speakers, and other computer accessories.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Keyboard & Mouse Setup</li>
+                            <li><i class="fas fa-check"></i> Printer Installation</li>
+                            <li><i class="fas fa-check"></i> Monitor Configuration</li>
+                            <li><i class="fas fa-check"></i> Audio Device Setup</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary">Setup Now</a>
+                    </div>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="800">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <h4>Refurbished Desktops & Laptops</h4>
+                        <p>Quality refurbished computers and laptops, professionally tested and restored to optimal performance with warranty coverage.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Quality Tested Systems</li>
+                            <li><i class="fas fa-check"></i> Performance Optimization</li>
+                            <li><i class="fas fa-check"></i> Warranty Coverage</li>
+                            <li><i class="fas fa-check"></i> Cost-Effective Solutions</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline-primary">View Available</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+                    <div class="about-image">
+                        <div class="about-image-placeholder">
+                            <i class="fas fa-building"></i>
+                            <p>Divyah Infotech Office</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-content">
+                        <h2 class="section-title mb-4">About Divyah Infotech</h2>
+                        <p class="lead mb-4">
+                            With years of experience in the technology sector, Divyah Infotech has established itself 
+                            as a trusted partner for comprehensive computer and hardware services.
+                        </p>
+                        <p class="mb-4">
+                            Our mission is to provide reliable, efficient, and cost-effective technology solutions 
+                            that help our clients focus on their core business activities. We specialize in computer 
+                            repair, maintenance contracts, and complete system installations.
+                        </p>                        <div class="about-features">
+                            <div class="feature-item mb-3">
+                                <i class="fas fa-check-circle text-primary me-3"></i>
+                                <span>15+ Years of Industry Experience</span>
+                            </div>
+                            <div class="feature-item mb-3">
+                                <i class="fas fa-check-circle text-primary me-3"></i>
+                                <span>500+ Satisfied Customers</span>
+                            </div>
+                            <div class="feature-item mb-3">
+                                <i class="fas fa-check-circle text-primary me-3"></i>
+                                <span>Expert Certified Technicians</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-lg mt-4">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+                    <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                        Ready to get your tech issues resolved? Contact us today!
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mb-5" data-aos="fade-right">
+                    <div class="contact-form-container">
+                        <div id="successMessage" class="alert alert-success alert-dismissible fade hide" role="alert">
+                            <strong>Success!</strong> Your message has been sent. We'll get back to you soon.
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                        <form id="contactForm" class="contact-form" name="contact" method="POST" action="https://formspree.io/f/xbdabrzp">
+                            <!-- Formspree handles form submission automatically -->
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="fullName" class="form-label">Full Name *</label>
+                                    <input type="text" class="form-control" id="fullName" name="fullName" required>
+                                    <div class="invalid-feedback">Please enter your full name.</div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone" class="form-label">Phone Number *</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone" required>
+                                    <div class="invalid-feedback">Please enter your phone number.</div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="service" class="form-label">Service Required</label>                                    
+                                    <select class="form-control" id="service" name="service">
+                                        <option value="">Select a service</option>
+                                        <option value="repair">Computer/Laptop Repair</option>
+                                        <option value="amc">Annual Maintenance Contract</option>
+                                        <option value="installation">PC Installation</option>
+                                        <option value="software">Software Setup</option>
+                                        <option value="networking">Network Setup</option>
+                                        <option value="maintenance">System Maintenance</option>
+                                        <option value="peripherals">Computer Peripherals Setup</option>
+                                        <option value="refurbished">Refurbished Desktops & Laptops</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message/Query *</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required 
+                                    placeholder="Please describe your issue or requirements in detail..."></textarea>
+                                <div class="invalid-feedback">Please enter your message.</div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="fas fa-paper-plane me-2"></i>Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>                
+                <div class="col-lg-4" data-aos="fade-left">
+                    <div class="contact-info">                        
+                        <div class="contact-item mb-4">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Phone</h5>
+                                <p>+91 93205 34589</p>
+                            </div>
+                        </div>                        
+                        <div class="contact-item mb-4">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Email</h5>
+                                <p>tarun@divyahinfotech.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item mb-4">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Working Hours</h5>
+                                <p>Mon - Sat: 10:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">                    
+                    <div class="footer-brand mb-3">
+                        <img src="logo.png" alt="Divyah Infotech" class="footer-logo">
+                    </div>
+                    <p class="footer-description">
+                        Your trusted partner for comprehensive computer and hardware services. 
+                        Professional solutions for all your technology needs.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="footer-title">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">                    
+                    <h5 class="footer-title">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="#services">Computer Repair</a></li>
+                        <li><a href="#services">AMC Services</a></li>
+                        <li><a href="#services">PC Installation</a></li>
+                        <li><a href="#services">Software Setup</a></li>
+                        <li><a href="#services">Network Setup</a></li>
+                        <li><a href="#services">Computer Peripherals</a></li>
+                        <li><a href="#services">Refurbished Computers</a></li>
+                    </ul>
+                </div>                <div class="col-lg-3 mb-4">
+                    <h5 class="footer-title">Contact Info</h5>                    
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone me-2"></i>+91 93205 34589</p>
+                        <p><i class="fas fa-envelope me-2"></i>tarun@divyahinfotech.com</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="footer-copyright">
+                        &copy; 2026 Divyah Infotech. All rights reserved. | 
+                        <a href="#" class="footer-link">Privacy Policy</a> | 
+                        <a href="#" class="footer-link">Terms of Service</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Divyah Infotech - Netlify Redirects Configuration
+
+# Force HTTPS (handled automatically by Netlify, but explicit here)
+http://divyahinfotech.com/*    https://divyahinfotech.com/:splat    301!
+http://www.divyahinfotech.com/*    https://www.divyahinfotech.com/:splat    301!
+
+# Redirect www to non-www (RECOMMENDED for cleaner URLs)
+https://www.divyahinfotech.com/*    https://divyahinfotech.com/:splat    301!
+
+# Alternative: Redirect non-www to www (uncomment if preferred)
+# https://divyahinfotech.com/*    https://www.divyahinfotech.com/:splat    301!
+
+# 404 fallback - redirect all 404s to homepage
+/*    /index.html    404

@@ -1,0 +1,16 @@
+# Divyah Infotech - Robots.txt
+# Allow all search engines to crawl the entire site
+
+User-agent: *
+Allow: /
+
+# Sitemap location (update with actual domain after deployment)
+Sitemap: https://www.divyahinfotech.com/sitemap.xml
+
+# Optional: Crawl-delay (uncomment if needed to reduce server load)
+# Crawl-delay: 10
+
+# Disallow specific paths (examples - customize as needed)
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /temp/
